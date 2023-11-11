@@ -17,3 +17,6 @@ DATABASE_URL=postgresql://admin:123123123@localhost:5432/nextauth_prisma?schema=
 * You have to install docker and use `docker-compose up` to run a postgres database
 * run `npx prisma migrate dev --name init` to create a database (schema from `prisma/schema.prisma`)
 * then run `npx prisma db seed` to seed the database
+
+
+#### Note: Don't forget to change variables
